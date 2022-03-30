@@ -33,7 +33,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
 
 
   def test_join_string(self):
-      string_1 = "Mary had a little lamb, "
+      string_1 = "Mary had a little lamb,"
       string_2 = "its fleece was white as snow"
       joined_string = join_string( string_1, string_2 )
       self.assertEqual( "Mary had a little lamb, its fleece was white as snow", joined_string )
