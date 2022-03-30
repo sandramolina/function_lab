@@ -65,6 +65,10 @@ def string_reverser(string):
     word.reverse()
     reversed_string = "".join(word)
     return reversed_string
+
+#Another way to solve the reverser:
+# def string_reverser(string):
+#     return string[::-1]
     
 
 def fahrenheit_to_celsius(fahrenheit):
