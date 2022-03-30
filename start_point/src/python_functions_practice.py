@@ -17,7 +17,8 @@ def length_of_string(string):
     return len(string)
 
 def join_string(string_1, string_2):
-    return string_1 + string_2
+    list = [string_1, string_2]
+    return " ".join(list)
 
 def add_string_as_number(string_1, string_2):
     string_1 = int(string_1)
