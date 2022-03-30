@@ -46,7 +46,9 @@ def number_to_full_month_name(key):
 months_short = {
     1: "Jan",
     2: "Feb",
+    3: "Mar",
     4: "Apr",
+    5: "May",
     10: "Oct"
 }
 
