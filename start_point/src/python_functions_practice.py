@@ -42,13 +42,14 @@ months = {
 def number_to_full_month_name(key):
     return months[key]
 
-print(number_to_full_month_name(10))
 
 months_short = {
     1: "Jan",
+    2: "Feb",
     4: "Apr",
     10: "Oct"
 }
+
 def number_to_short_month_name(key):
     return months_short[key]
 
