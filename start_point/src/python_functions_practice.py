@@ -55,12 +55,17 @@ months_short = {
 def number_to_short_month_name(key):
     return months_short[key]
 
+from audioop import reverse
 import math
 def volume_of_cube_calculator(cube_side):
    return int(math.pow(cube_side, 3))
 
 def string_reverser(string):
-    return string[::-1]
+    word = list(string)
+    word.reverse()
+    reversed_string = "".join(word)
+    return reversed_string
+    
 
 def fahrenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
